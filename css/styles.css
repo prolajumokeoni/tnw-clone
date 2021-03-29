@@ -1,3 +1,73 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+body,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+html,
 body {
-  background-color: brown;
+  overflow-x: hidden;
+}
+
+.black-nav {
+  display: none;
+}
+
+.white-nav {
+  display: none;
+}
+
+.mobile-logo {
+  background-color: black;
+  height: 48px;
+  width: 100px;
+}
+
+.logo {
+  margin: 15px 15px;
+  vertical-align: middle;
+}
+
+.mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(228, 222, 222);
+}
+
+.bar,
+.search {
+  border-left: 1px solid rgb(228, 222, 222);
+  padding: 16px 15px;
+}
+
+.bar-icon {
+  color: red;
+}
+
+.search-icon {
+  color: rgb(228, 222, 222);
+}
+
+.yellow-anchor {
+  text-decoration: none;
+}
+
+.yellow-nav {
+  background-color: yellow;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 30px;
+  padding-top: 15px;
+  padding-left: 5px;
 }
