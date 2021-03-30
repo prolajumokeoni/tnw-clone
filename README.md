@@ -29,6 +29,7 @@
 👤 **Emmanuel Obonyo**
 
 - GitHub: [@githubhandle](https://github.com/emmyobonyo)
+- Twitter: [@twitterhandle](https://twitter.com/emmyobonyo)
 
 👤 **Oni Olajumoke Priscilla**
 
