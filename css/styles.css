@@ -138,6 +138,7 @@ header {
   margin-top: 20px;
   margin-bottom: 20%;
 }
+
 .title {
   color: rgb(224, 73, 17);
 }
@@ -150,6 +151,7 @@ header {
   margin: 10px;
   position: relative;
 }
+
 .latest-logo {
   position: absolute;
   height: 60px;
@@ -159,7 +161,7 @@ header {
 }
 
 .ring {
-  background-color: #ff4422;
+  background-color: #f42;
   padding: 20px;
   text-align: center;
 }
@@ -182,7 +184,7 @@ header {
 
 .funding-tags {
   padding: 20px 10px;
-  background-color: #FEFAF8;
+  background-color: #fefaf8;
 }
 
 .funding-anchors {
@@ -200,12 +202,12 @@ header {
 }
 
 .bold-line {
-  border: 1px solid #ff4422;
+  border: 1px solid #f42;
   margin: 0;
 }
 
 .funding-details {
-  background-color: #FEFAF8;
+  background-color: #fefaf8;
   padding: 20px 10px;
   color: gray;
 }
