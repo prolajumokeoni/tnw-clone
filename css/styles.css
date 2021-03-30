@@ -305,7 +305,7 @@ header {
   padding: 30px;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   a {
     text-decoration: none;
   }
@@ -360,9 +360,10 @@ header {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows:  1fr;
-    grid-template-areas: "box-1 box-2"
-    "box-1 box-3";
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "box-1 box-2"
+      "box-1 box-3";
   }
 
   .phone {
@@ -395,6 +396,12 @@ header {
   }
 
   .funding:nth-last-of-type(3) {
-  display: block;
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .highlights {
+    margin-top: 12%;
   }
 }
