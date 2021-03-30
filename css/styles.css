@@ -376,4 +376,25 @@ header {
   .mac {
     grid-area: box-3;
   }
+
+  .sub-title {
+    display: flex;
+  }
+
+  .sub-text {
+    margin-right: 10px;
+  }
+
+  .sub-text-pad {
+    padding-left: 10px;
+    border-left: 1px solid red;
+  }
+
+  .flex-funding {
+    display: flex;
+  }
+
+  .funding:nth-last-of-type(3) {
+  display: block;
+  }
 }
