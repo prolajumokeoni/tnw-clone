@@ -408,6 +408,7 @@ header {
   .funding:nth-last-of-type(4) {
     display: block;
   }
+
   .funding-heading {
     display: flex;
     justify-content: space-between;
