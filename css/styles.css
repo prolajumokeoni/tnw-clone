@@ -15,6 +15,7 @@ section {
 html,
 body {
   overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .black-nav {
@@ -70,4 +71,121 @@ body {
   height: 30px;
   padding-top: 15px;
   padding-left: 5px;
+}
+/* Main */
+/* Highlights */
+.container {
+  position: relative;
+  color: black;
+}
+
+.container::after {
+  content:'';
+  position: absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  display: inline-block;
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.0) 0%, rgba(0, 0, 0, 0.7) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255, 255, 255, 0.0)), color-stop(100%,rgba(0, 0, 0, 1)));
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  color: white;
+  z-index: 1;
+}
+
+.bottom-left-details {
+  display: flex;
+  justify-content: flex-start;
+  color: grey;
+  font-size: 12px;
+}
+
+.highlights-image {
+  width: 100%;
+}
+
+.author,
+.bottom-left-icon,
+.time-stump {
+  margin-right: 5px;
+}
+
+/* Footer */
+
+.top-footer {
+  background-color: rgb(44, 42, 42);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 20px 0;
+}
+
+.bottom-footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer-paragraph {
+  color: grey;
+  font-size: 8.5px;
+  margin-left: 3px;
+}
+
+.footer-logo {
+  width: 25px;
+}
+
+.footer-icons {
+  align-self: center;
+}
+
+.footer-icon {
+  color: white;
+  background-color: grey;
+  padding: 8px;
+  border-radius: 20px;
+  margin: 0 5px
+}
+
+.footer-links {
+  align-self: center;
+  margin-top: 10px;
+}
+
+.footer-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-list {
+  display: inline;
+}
+
+.footer-anchor {
+  text-decoration: none;
+  color: grey;
+  font-size: 12px;
+}
+
+.blue-man {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  background-color: blue;
+  border-radius: 40px;
+  color: white;
+  font-size: 40px;
+  margin: 0 10px 10px 0;
 }
