@@ -18,6 +18,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 69;
+  background-color: white;
+}
+
 .black-nav {
   display: none;
 }
@@ -76,6 +83,12 @@ body {
 /* Main */
 
 /* Highlights */
+.highlights {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 30%;
+}
+
 .container {
   position: relative;
   color: black;
@@ -117,6 +130,56 @@ body {
 .time-stump {
   margin-right: 5px;
 }
+
+/* Latest-funding */
+.latest-funding {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20%;
+}
+.title {
+  color: rgb(224, 73, 17);
+}
+
+.sub-title {
+  color: rgb(224, 73, 17);
+}
+
+.funding {
+  margin: 10px;
+  position: relative;
+}
+.latest-logo {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  top: 10px;
+  left: 10px;
+}
+
+.ring {
+  background-color: #ff4422;
+  padding: 20px;
+  text-align: center;
+}
+
+.funding-bottom {
+  background-color: #ffebe7;
+  padding: 15px;
+}
+
+.funding-text {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.funding-small {
+  text-align: center;
+  margin-left: 45px;
+  color: #555;
+}
+
 
 /* Footer */
 
