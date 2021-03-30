@@ -31,6 +31,8 @@
 - GitHub: [@githubhandle](https://github.com/emmyobonyo)
 - Twitter: [@twitterhandle](https://twitter.com/emmyobonyo)
 
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-obonyo-3728a2200/)
+
 👤 **Oni Olajumoke Priscilla**
 
 - GitHub: [@githubhandle](https://github.com/prolajumokeoni)
