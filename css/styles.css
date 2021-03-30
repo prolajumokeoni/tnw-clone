@@ -180,6 +180,35 @@ header {
   color: #555;
 }
 
+.funding-tags {
+  padding: 20px 10px;
+  background-color: #FEFAF8;
+}
+
+.funding-anchors {
+  margin-left: 18px;
+  text-decoration: none;
+  color: gray;
+}
+
+.funding-exp {
+  margin-top: 10px;
+}
+
+.funding-tel {
+  margin-left: 15px;
+}
+
+.bold-line {
+  border: 1px solid #ff4422;
+  margin: 0;
+}
+
+.funding-details {
+  background-color: #FEFAF8;
+  padding: 20px 10px;
+  color: gray;
+}
 
 /* Footer */
 
@@ -202,7 +231,7 @@ header {
 
 .footer-paragraph {
   color: grey;
-  font-size: 8.5px;
+  font-size: 8px;
   margin-left: 3px;
 }
 
