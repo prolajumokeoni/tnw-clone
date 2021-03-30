@@ -19,7 +19,8 @@
 # medium screenshot
 ![prolajumokeoni github io_tnw-clone_(iPad)](https://user-images.githubusercontent.com/69638013/113019471-9150e400-9179-11eb-8f8d-d2f0fdac95a4.png)
 # Desktop screenshot
-![prolajumokeoni github io_tnw-clone_](https://user-images.githubusercontent.com/69638013/113019514-99a91f00-9179-11eb-8b46-98e5d6111659.png)
+![funding](https://user-images.githubusercontent.com/69638013/113025627-10e1b180-9180-11eb-918d-2c343c808b21.PNG)
+
 
 
 ## Authors
