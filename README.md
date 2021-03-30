@@ -9,6 +9,11 @@
 - Flex & grid
 
 
+## Live Demo
+
+[Live Demo Link](https://prolajumokeoni.github.io/tnw-clone/)
+
+
 # mobile screenshot
 ![prolajumokeoni github io_tnw-clone_(Galaxy S5)](https://user-images.githubusercontent.com/69638013/113019464-8e55f380-9179-11eb-89bd-a07d16f91de1.png)
 # medium screenshot
@@ -29,3 +34,20 @@
 - GitHub: [@githubhandle](https://github.com/prolajumokeoni)
 - Twitter: [@twitterhandle](https://twitter.com/prolajumokeoni)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/olajumoke-priscilla-oni-44a48b162/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/prolajumokeoni/tnw-clone/issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
