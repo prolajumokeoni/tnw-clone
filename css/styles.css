@@ -225,9 +225,6 @@ header {
 }
 
 /* Footer */
-footer {
-  margin-bottom: 30%;
-}
 .top-footer {
   background-color: rgb(44, 42, 42);
   display: flex;
@@ -295,10 +292,14 @@ footer {
   position: fixed;
   bottom: 0;
   right: 0;
-  padding: 20px;
   background-color: blue;
-  border-radius: 40px;
+  border-radius: 100px;
   color: white;
-  font-size: 40px;
-  margin: 0 10px 10px 0;
+  width: 100px;
+  height: 100px;
+}
+
+.blue-man-icon {
+  width: 40%;
+  padding: 30px;
 }
