@@ -225,7 +225,9 @@ header {
 }
 
 /* Footer */
-
+footer {
+  margin-bottom: 30%;
+}
 .top-footer {
   background-color: rgb(44, 42, 42);
   display: flex;
@@ -247,6 +249,9 @@ header {
   color: grey;
   font-size: 8px;
   margin-left: 3px;
+}
+.stack-logo {
+  width: 30px;
 }
 
 .footer-logo {
