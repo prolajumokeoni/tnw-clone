@@ -141,15 +141,27 @@ header {
 
 .title {
   color: rgb(224, 73, 17);
+  margin-left: 10px;
+  padding: 10px 0;
 }
 
 .sub-title {
   color: rgb(224, 73, 17);
+  margin-left: 10px;
+}
+
+.sub-text {
+  padding: 10px 0;
 }
 
 .funding {
   margin: 10px;
   position: relative;
+}
+
+.funding:nth-last-of-type(3),
+.funding:nth-last-of-type(4) {
+  display: none;
 }
 
 .latest-logo {
