@@ -17,7 +17,7 @@
 # mobile screenshot
 ![prolajumokeoni github io_tnw-clone_(Galaxy S5)](https://user-images.githubusercontent.com/69638013/113019464-8e55f380-9179-11eb-89bd-a07d16f91de1.png)
 # medium screenshot
-![prolajumokeoni github io_tnw-clone_(iPad)](https://user-images.githubusercontent.com/69638013/113019471-9150e400-9179-11eb-8f8d-d2f0fdac95a4.png)
+![medium](https://user-images.githubusercontent.com/69638013/113029728-af701180-9184-11eb-9534-5e123b4d3250.PNG)
 # Desktop screenshot
 ![funding](https://user-images.githubusercontent.com/69638013/113025627-10e1b180-9180-11eb-918d-2c343c808b21.PNG)
 
