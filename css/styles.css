@@ -304,3 +304,76 @@ header {
   width: 40%;
   padding: 30px;
 }
+
+@media (min-width:768px) {
+  a {
+    text-decoration: none;
+  }
+
+  .black-nav {
+    width: 100%;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+  }
+
+  .mobile-logo {
+    display: none;
+  }
+
+  .black-left {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+  }
+
+  .black-right {
+    list-style: none;
+    display: flex;
+    padding-right: 10px;
+  }
+
+  .white-nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .white-nav-links {
+    font-weight: bolder;
+    color: #555;
+    padding-left: 10px;
+  }
+
+  .black-anchor {
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .bar {
+    display: none;
+  }
+
+  .highlights {
+    margin-top: 20%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows:  1fr;
+    grid-template-areas: "box-1 box-2"
+    "box-1 box-3";
+  }
+
+  .phone {
+    grid-area: box-1;
+  }
+
+  .google {
+    grid-area: box-2;
+  }
+
+  .mac {
+    grid-area: box-3;
+  }
+}
