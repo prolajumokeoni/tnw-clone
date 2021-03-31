@@ -285,6 +285,7 @@ header {
   background-color: #fefaf8;
   padding: 20px 10px;
   color: gray;
+  border-top: 1px solid #f42;
 }
 
 /* Footer */
