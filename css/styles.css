@@ -86,15 +86,71 @@ header {
 .highlights {
   width: 95%;
   margin: 0 auto;
-  margin-top: 30%;
+  margin-top: 90px;
 }
 
 .container {
   position: relative;
   color: black;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 200px;
+  margin-top: 15px;
 }
 
-.container::after {
+.phone {
+  position: relative;
+  background-image:
+    linear-gradient(
+      to right bottom,
+      rgba(235, 76, 59, 0.9),
+      rgba(20, 19, 33, 0.5)
+    ),
+    url("../images/1.jpg");
+}
+
+.google {
+  position: relative;
+  background-image:
+    linear-gradient(
+      to right bottom,
+      rgba(235, 76, 59, 0.9),
+      rgba(20, 19, 33, 0.5)
+    ),
+    url("../images/2.png");
+}
+
+.mac {
+  position: relative;
+  background-image:
+    linear-gradient(
+      to right bottom,
+      rgba(235, 76, 59, 0.9),
+      rgba(20, 19, 33, 0.5)
+    ),
+    url("../images/3.webp");
+}
+
+.highlight-logo,
+.date {
+  display: none;
+}
+
+.opal {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.opal-small {
+  color: white;
+  text-decoration: none;
+}
+
+/* .container::after {
   content: '';
   position: absolute;
   left: 0;
@@ -104,7 +160,7 @@ header {
   display: inline-block;
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(0, 0, 0, 1)));
-}
+} */
 
 .bottom-left {
   position: absolute;
@@ -117,8 +173,9 @@ header {
 .bottom-left-details {
   display: flex;
   justify-content: flex-start;
-  color: grey;
+  color: rgba(255, 255, 255, 0.6);
   font-size: 12px;
+  align-items: center;
 }
 
 .highlights-image {
@@ -126,9 +183,11 @@ header {
 }
 
 .author,
-.bottom-left-icon,
+.clock,
+.share,
 .time-stump {
-  margin-right: 5px;
+  margin-right: 7px;
+  font-size: 1rem;
 }
 
 /* Latest-funding */
@@ -139,19 +198,23 @@ header {
   margin-bottom: 20%;
 }
 
+.title-p {
+  margin-left: 10px;
+}
+
 .title {
   color: rgb(224, 73, 17);
-  margin-left: 10px;
-  padding: 10px 0;
+  text-decoration: none;
 }
 
 .sub-title {
-  color: rgb(224, 73, 17);
   margin-left: 10px;
 }
 
 .sub-text {
-  padding: 10px 0;
+  text-decoration: none;
+  color: rgb(224, 73, 17);
+  line-height: 2rem;
 }
 
 .funding {
