@@ -393,6 +393,15 @@ header {
   .date {
     display: none;
   }
+
+  .opal {
+    font-size: 2.5rem;
+    padding-right: 10px;
+  }
+
+  .highlight-logo {
+    display: none;
+  }
   
   .sub-title {
     display: flex;
