@@ -390,6 +390,10 @@ header {
     grid-area: box-3;
   }
 
+  .date {
+    display: none;
+  }
+  
   .sub-title {
     display: flex;
   }
