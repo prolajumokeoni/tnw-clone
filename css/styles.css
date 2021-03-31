@@ -314,30 +314,38 @@ header {
     width: 100%;
     display: block;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: black;
   }
 
   .mobile-logo {
-    display: none;
+    display: block;
+    position: absolute;
+    height: 100px;
+    top: 0;
+    left: 0;
   }
 
+  .logo {
+    margin-top: 50px;
+  }
+  
   .black-left {
     list-style: none;
     display: flex;
     padding-left: 0;
+    margin-left: 80px;
   }
 
   .black-right {
     list-style: none;
     display: flex;
-    padding-right: 10px;
   }
 
   .white-nav {
     display: flex;
     list-style: none;
-    padding-left: 0;
+    margin-left: 80px;
   }
 
   .white-nav-links {
@@ -347,12 +355,17 @@ header {
   }
 
   .black-anchor {
-    padding-left: 10px;
+    padding-left: 5px;
     color: rgba(255, 255, 255, 0.6);
+    font-size: .8rem;
   }
 
   .bar {
     display: none;
+  }
+
+  .yellow-nav {
+    padding-left: 130px;
   }
 
   .highlights {
