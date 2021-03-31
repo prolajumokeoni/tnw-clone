@@ -431,12 +431,18 @@ header {
     padding-left: 130px;
   }
 
+  .container {
+    height: 100%;
+    background-size: unset;
+    margin-top: -5px;
+  }
+
   .highlights {
     margin-top: 20%;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows:  1fr;
+    grid-template-rows:  1fr 1fr;
     grid-template-areas: "box-1 box-2"
     "box-1 box-3";
   }
@@ -457,9 +463,35 @@ header {
     display: none;
   }
 
+  .bottom-left {
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 5px;
+  }
+  
+  .bottom-left-logo {
+    margin-top: 200px;
+    margin-bottom: 5px;
+  }
+
+  .bottom-left-details {
+    margin-top: 10px;
+  }
+
   .opal {
-    font-size: 2.5rem;
-    padding-right: 10px;
+    font-size: 30px;
+  }
+
+  .opal-small {
+    font-size: 15px;
+  }
+
+  .author,
+  .clock,
+  .share,
+  .time-stump {
+   margin-right: 3px;
+   font-size: 1rem;
   }
 
   .highlight-logo {
