@@ -512,13 +512,16 @@ header {
     border-left: 1px solid red;
   }
 
-  .flex-funding {
+  .flex{
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: space-between;
     align-content: center;
   }
 
+  .funding {
+    width: 30%;
+  }
 
   .funding:nth-last-of-type(4) {
   display: none;
