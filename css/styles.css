@@ -323,13 +323,18 @@ header {
 .footer-icons {
   align-self: center;
 }
+.anchor-icon-f {
+  background-color: grey;
+  border-radius: 50px;
+  padding: 10px;
+}
 
 .footer-icon {
   color: white;
-  background-color: grey;
-  padding: 8px;
-  border-radius: 20px;
-  margin: 0 5px;
+  font-size: 15px;
+  text-align: center;
+  height: 7px;
+  width: 15px;
 }
 
 .footer-links {
@@ -345,6 +350,7 @@ header {
 
 .footer-list {
   display: inline;
+  padding-left: 10px;
 }
 
 .footer-anchor {
