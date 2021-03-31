@@ -513,9 +513,13 @@ header {
 
   .flex-funding {
     display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-content: center;
   }
 
-  .funding:nth-last-of-type(3) {
-  display: block;
+
+  .funding:nth-last-of-type(4) {
+  display: none;
   }
 }
