@@ -540,12 +540,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .anchor-news {
   color: orangered;
-  text-decoration: none;
+  width: 100px;
 }
 
 @media (min-width: 768px) {
@@ -586,7 +586,7 @@ header {
   }
 
   .anchor-news {
-    margin-left: 10px;
+    margin-left: -20px;
   }
 
   .white-nav {
