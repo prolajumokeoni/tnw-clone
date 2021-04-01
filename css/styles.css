@@ -573,7 +573,7 @@ header {
     height: 350px;
     width: 350px;
     position: absolute;
-    bottom: 200px;
+    bottom: 190px;
     left: 10px;
   }
 
@@ -582,7 +582,7 @@ header {
   }
 
   .bottom-left-logo {
-    margin-top: 300px;
+    margin-top: 290px;
   }
 
   .date {
