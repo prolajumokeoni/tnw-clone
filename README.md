@@ -14,12 +14,15 @@
 [Live Demo Link](https://prolajumokeoni.github.io/tnw-clone/)
 
 
-# mobile screenshot
-![prolajumokeoni github io_tnw-clone_(Galaxy S5)](https://user-images.githubusercontent.com/69638013/113019464-8e55f380-9179-11eb-89bd-a07d16f91de1.png)
-# medium screenshot
-![medium](https://user-images.githubusercontent.com/69638013/113029728-af701180-9184-11eb-9534-5e123b4d3250.PNG)
-# Desktop screenshot
-![funding](https://user-images.githubusercontent.com/69638013/113025627-10e1b180-9180-11eb-918d-2c343c808b21.PNG)
+## mobile screenshot
+![127 0 0 1_5500_index html](https://user-images.githubusercontent.com/69638013/113250330-32de4f80-92b8-11eb-8491-d8761181cf47.png)
+
+## medium screenshot
+![127 0 0 1_5500_index html(iPad)](https://user-images.githubusercontent.com/69638013/113250374-47bae300-92b8-11eb-8267-ff8f7d0ef715.png)
+
+## Desktop screenshot
+![127 0 0 1_5500_index html (1)](https://user-images.githubusercontent.com/69638013/113250426-60c39400-92b8-11eb-85d5-e770a3a1f7b3.png)
+
 
 
 
