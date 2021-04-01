@@ -287,6 +287,9 @@ header {
   color: gray;
   border-top: 1px solid #f42;
 }
+.funding:nth-of-type(4) {
+  display: none;
+}
 
 /* Footer */
 .top-footer {
@@ -323,13 +326,18 @@ header {
 .footer-icons {
   align-self: center;
 }
+.anchor-icon-f {
+  background-color: grey;
+  border-radius: 50px;
+  padding: 10px;
+}
 
 .footer-icon {
   color: white;
-  background-color: grey;
-  padding: 8px;
-  border-radius: 20px;
-  margin: 0 5px;
+  font-size: 15px;
+  text-align: center;
+  height: 7px;
+  width: 15px;
 }
 
 .footer-links {
@@ -345,6 +353,7 @@ header {
 
 .footer-list {
   display: inline;
+  padding-left: 10px;
 }
 
 .footer-anchor {
@@ -512,16 +521,13 @@ header {
     border-left: 1px solid red;
   }
 
-  .flex{
+  .flex {
     display: flex;
-    width: 100%;
     justify-content: space-between;
     align-content: center;
   }
 
-  .funding {
-    width: 30%;
-  }
+  
 
   .funding:nth-last-of-type(3) {
     display: block;
