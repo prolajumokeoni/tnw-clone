@@ -276,9 +276,10 @@ header {
   margin-left: 15px;
 }
 
-.bold-line {
-  border: 1px solid #f42;
-  margin: 0;
+.funds-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .funding-details {
@@ -288,7 +289,7 @@ header {
   border-top: 1px solid #f42;
 }
 .funding:nth-of-type(4) {
-  display: none;
+  display: block;
 }
 
 /* Footer */
