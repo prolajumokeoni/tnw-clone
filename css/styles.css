@@ -529,12 +529,68 @@ header {
 }
 
 @media (min-width: 1024px) {
-  .highlights {
-    margin-top: 12%;
+  .black-nav {
+    justify-content: space-between;
   }
 
-  .funding:nth-last-of-type(4) {
+
+  .mobile-logo {
+    display: none;
+  }
+
+  .black-left {
+    margin-left: 0;
+  }
+
+  .black-right {
+    margin-right: 10px;
+  }
+
+  .white-nav {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+
+  .yellow-nav {
+    padding-left: 30px;
+  }
+
+  .black-anchor {
+    font-size: 1.1rem;
+    padding-left: 20px;
+  }
+
+  .highlights {
+    margin-top: 160px;
+    position: relative;
+  }
+
+  .highlight-logo {
     display: block;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    bottom: 150px;
+    left: 10px;
+  }
+
+  .bottom-left-logo {
+    margin-top: 280px;
+  }
+  .date {
+    display: block;
+    position: absolute;
+    top: -250px;
+    font-size: 1rem;
+    right: 10px;
+  }
+
+  .opal {
+    font-size: 35px;
+  }
+
+  .opal-small {
+    font-size: 20px;
   }
 
   .funding-heading {
