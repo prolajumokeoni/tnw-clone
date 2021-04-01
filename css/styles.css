@@ -417,6 +417,7 @@ header {
 .anchor-news {
   color: orangered;
   text-decoration: none;
+  flex-basis: 20%;
 }
 
 @media (min-width: 768px) {
@@ -597,14 +598,6 @@ header {
   .latest-grid-image {
     width: 230px;
     height: 130px;
-  }
-
-  .latest-news-grid {
-    display: flex;
-    flex-wrap: wrap;
-    width: 95%;
-    margin: 10px auto;
-    justify-content: space-between;
   }
 }
 
