@@ -288,13 +288,8 @@ header {
   color: gray;
   border-top: 1px solid #f42;
 }
-<<<<<<< HEAD
-.funding:nth-of-type(4) {
-  display: block;
-=======
 .funds:nth-of-type(4) {
   display: none;
->>>>>>> 5482361d3bdd2693426519a496dc4aa365a39377
 }
 
 /* Footer */
