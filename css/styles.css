@@ -533,6 +533,7 @@ header {
 .latest-news-head {
   color: orangered;
   font-size: 35px;
+  margin-left: 10px;
 }
 
 .latest-news-heading {
@@ -545,7 +546,6 @@ header {
 .anchor-news {
   color: orangered;
   text-decoration: none;
-  flex-basis: 20%;
 }
 
 @media (min-width: 768px) {
@@ -586,7 +586,7 @@ header {
   }
 
   .anchor-news {
-    padding-left: 10px;
+    margin-left: 10px;
   }
 
   .white-nav {
