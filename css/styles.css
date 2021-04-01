@@ -378,3 +378,115 @@ header {
   width: 40%;
   padding: 30px;
 }
+
+/* categories */
+
+.categories-header {
+  text-decoration: none;
+  color: #f42;
+}
+
+.categories-section {
+  width: 95%;
+  margin: 0 auto;
+}
+.popular {
+  position: relative;
+  color: black;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 200px;
+  margin-top: 15px;
+}
+
+.first-img {
+  background-image:
+    linear-gradient(
+      to right bottom,
+      rgba(245, 237, 236, 0.9),
+      rgba(18, 18, 20, 0.5)
+    ),
+    url("../images/1-copy-44-368x276.jpg");
+}
+
+.popular-text {
+  position: absolute;
+  bottom: 0;
+}
+
+.popular-bottom {
+  display: flex;
+  justify-content: flex-start;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  align-items: center;
+}
+
+.latest-popular {
+  padding-left: 10px;
+}
+
+.robin {
+  width: 100px;
+  height: 100px;
+}
+.header-p {
+  color: #f42;
+  padding-bottom: 5px;
+}
+
+.popular-anchor {
+  text-decoration: none;
+  color: #f42;
+}
+
+.flex-popular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffebe7;
+  height: 100px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.deals-item {
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  padding-right: 20px;
+  padding-left: unset;
+}
+
+.deals-list {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.deals-item li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -.2rem;
+}
+
+.deals-hr {
+  width: 98%;
+  padding-right: 10px;
+  margin: 15px 0;
+  border-bottom: 1px solid #555;
+  text-underline-offset: 1em;
+}
+
+.anchor-line {
+  color: #555;
+  text-decoration: none;
+  font-size: 13px;
+}
