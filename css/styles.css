@@ -205,7 +205,7 @@ header {
   line-height: 2rem;
 }
 
-.funding {
+.funds {
   margin: 10px;
   position: relative;
 }
@@ -287,7 +287,7 @@ header {
   color: gray;
   border-top: 1px solid #f42;
 }
-.funding:nth-of-type(4) {
+.funds:nth-of-type(4) {
   display: none;
 }
 
