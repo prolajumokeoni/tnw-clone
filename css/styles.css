@@ -287,6 +287,9 @@ header {
   color: gray;
   border-top: 1px solid #f42;
 }
+.funding:nth-of-type(4) {
+  display: none;
+}
 
 /* Footer */
 .top-footer {
