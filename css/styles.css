@@ -276,12 +276,6 @@ header {
   margin-left: 15px;
 }
 
-.funds-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .funding-details {
   background-color: #fefaf8;
   padding: 20px 10px;
@@ -580,13 +574,18 @@ header {
     height: 350px;
     width: 350px;
     position: absolute;
-    bottom: 150px;
+    bottom: 200px;
     left: 10px;
   }
 
-  .bottom-left-logo {
-    margin-top: 280px;
+  .bottom-left {
+    margin-top: 120px;
   }
+
+  .bottom-left-logo {
+    margin-top: 300px;
+  }
+
   .date {
     display: block;
     position: absolute;
@@ -603,10 +602,12 @@ header {
     font-size: 20px;
   }
 
-  .funding-heading {
+  .funds-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
+
   .funds:nth-of-type(4) {
     display: block;
   }
