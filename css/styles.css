@@ -567,6 +567,7 @@ header {
   }
 
   .highlights {
+    width: 98%;
     margin-top: 160px;
     position: relative;
   }
