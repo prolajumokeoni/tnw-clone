@@ -517,9 +517,10 @@ header {
     margin-right: 10px;
   }
 
-  .sub-text-pad {
-    padding-left: 10px;
-    border-left: 1px solid red;
+  .sub-text:nth-last-child(2) {
+    border-left: 1px solid #f42;
+    border-right: 1px solid #f42;
+    padding: 0 5px;
   }
 
   .flex {
