@@ -540,12 +540,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-bottom: 20px; */
 }
 
 .anchor-news {
   color: orangered;
-  width: 100px;
+  width: 90px;
 }
 
 @media (min-width: 768px) {
