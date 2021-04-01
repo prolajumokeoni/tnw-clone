@@ -503,9 +503,9 @@ header {
 }
 
 .latest-news {
-  width: 90%;
+  width: 89%;
   margin: 0 auto;
-  margin-left: 15px;
+  margin: 5px;
 }
 
 .latest-news-grid {
@@ -583,6 +583,10 @@ header {
   .black-right {
     list-style: none;
     display: flex;
+  }
+
+  .anchor-news {
+    padding-left: 10px;
   }
 
   .white-nav {
@@ -728,8 +732,9 @@ header {
   }
 
   .latest-news-heading {
-    width: 90%;
     margin: 0 auto;
+    font-weight: bolder;
+    margin-left: 20px;
   }
 
   .latest-news-grid {
@@ -740,7 +745,7 @@ header {
   }
 
   .latest-news-head {
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
   }
 
