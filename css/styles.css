@@ -375,6 +375,131 @@ header {
   padding: 30px;
 }
 
+.categories-header {
+  text-decoration: none;
+  color: #f42;
+}
+
+.categories-section {
+  width: 95%;
+  margin: 0 auto;
+}
+.popular {
+  position: relative;
+  color: black;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 200px;
+  margin-top: 15px;
+}
+
+.categories-section {
+  width: 90%;
+  margin: 0 auto;
+}
+.popular-text {
+  position: absolute;
+  bottom: 0;
+}
+
+.popular-order {
+  margin: 0 auto;
+  width: 100%;
+}
+.texas-img {
+  width: 100%;
+  margin: 0 auto; 
+  height: 200px;
+}
+
+.header-popular,
+.popular-bottom,
+.popular-opal {
+  padding: 5px 10px;
+}
+.header-popular {
+  color: white;
+}
+
+.popular-bottom {
+  display: flex;
+  justify-content: flex-start;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  align-items: center;
+}
+
+.latest-popular {
+  padding-left: 10px;
+}
+
+.robin {
+  width: 100px;
+  height: 100px;
+}
+.header-p {
+  color: #f42;
+  padding-bottom: 5px;
+}
+
+.popular-anchor {
+  text-decoration: none;
+  color: #f42;
+}
+
+.flex-popular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffebe7;
+  height: 100px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.deals-item {
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  padding-right: 20px;
+  padding-left: unset;
+}
+
+.deals-list {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.deals-item li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -.2rem;
+}
+
+.deals-hr {
+  width: 98%;
+  padding-right: 10px;
+  margin: 15px 0;
+  border-bottom: 1px solid #555;
+  text-underline-offset: 1em;
+}
+
+.anchor-line {
+  color: #555;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+
+
 .latest-news {
   padding: 15px 8px;
   background: linear-gradient(lightgray 1%, 5%,white 90%);
@@ -573,6 +698,21 @@ header {
 
   .funding:nth-last-of-type(3) {
     display: block;
+  }
+
+  .categories {
+    position: relative;
+  }
+  .categories-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .popular-order {
+    width: 45%;
+    margin: 10px 0 0 20px;
   }
 
   .tablet-grid {
