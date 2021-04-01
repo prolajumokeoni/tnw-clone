@@ -844,11 +844,16 @@ header {
   }
 
   .latest-news-grid {
-    width: 25%;
+    width: 20%;
   }
 
+  .latest-news {
+    width: 95%;
+    margin: 0 auto;
+    margin-left: 10px;
+  }
   .latest-grid-image {
-    width: 300px;
+    width: 280px;
     height: 150px;
   }
 }
