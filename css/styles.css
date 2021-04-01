@@ -742,6 +742,10 @@ header {
     width: 27%;
   }
 
+  .image-for-grid {
+    background-image: url("../images/1.jpg");
+  }
+
   .latest-news-head {
     width: 95%;
     margin: 0 auto;
@@ -850,6 +854,7 @@ header {
     margin: 0 auto;
     margin-left: 10px;
   }
+
   .latest-grid-image {
     width: 280px;
     height: 150px;
