@@ -326,10 +326,11 @@ header {
 .footer-icons {
   align-self: center;
 }
-.anchor-icon-f {
+.anchor-icon-i {
   background-color: grey;
   border-radius: 50px;
   padding: 10px;
+  margin-right: 5px;
 }
 
 .footer-icon {
