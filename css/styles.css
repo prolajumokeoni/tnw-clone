@@ -603,4 +603,7 @@ header {
     display: flex;
     justify-content: space-between;
   }
+  .funding:nth-of-type(4) {
+    display: block;
+  }
 }
