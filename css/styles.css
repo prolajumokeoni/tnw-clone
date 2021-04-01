@@ -727,7 +727,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     width: 95%;
-    margin: 10px auto;
+    margin: 0 auto;
     justify-content: space-between;
   }
 
@@ -740,8 +740,7 @@ header {
   .latest-news-grid {
     display: flex;
     flex-wrap: wrap;
-    width: 23%;
-    margin-bottom: 40px;
+    width: 27%;
   }
 
   .latest-news-head {
@@ -750,7 +749,7 @@ header {
   }
 
   .latest-grid-image {
-    width: 230px;
+    width: 200px;
     height: 130px;
   }
 }
