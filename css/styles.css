@@ -532,19 +532,23 @@ header {
 
 .latest-news-head {
   color: orangered;
-  font-size: 35px;
-  margin-left: 10px;
+  font-size: 25px;
+  padding-left: 10px;
 }
 
-.latest-news-heading {
+.heading {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-between;
+}
+
+.d-late {
+  text-decoration: none;
 }
 
 .anchor-news {
   color: orangered;
-  width: 90px;
+  text-decoration: none;
 }
 
 .latest-comments {
