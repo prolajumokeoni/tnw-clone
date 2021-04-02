@@ -765,7 +765,7 @@ header {
   }
 
   .latest-news-head {
-    width: 92%;
+    padding-left: 25px;
   }
 
   .latest-grid-image {
@@ -878,5 +878,9 @@ header {
   .categories-section {
     width: 73%;
     margin: 0 auto;
+  }
+  
+  .latest-news-head {
+    padding-left: 30px;
   }
 }
